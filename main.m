@@ -1,6 +1,6 @@
 clc;
 clear all;
-printf("haha matlab ")
+
 %videomat = read_avi_file('rgb-04-1.avi', 145.5, 148, 10);
 load('videomat.mat', 'videomat');
 [ a, b, c, nFrames] = size(videomat);
